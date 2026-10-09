@@ -1,0 +1,285 @@
+# =====================================================================
+#  ABBY KOCH PORTFOLIO: ALL THE WORDS ON THE SITE LIVE IN THIS FILE
+# =====================================================================
+#
+#  How to edit (quick version; full guide in EDITING-GUIDE.md):
+#   - Only change the text AFTER a colon, or after a "- " dash.
+#   - Keep the indentation (the spaces at the start of lines) exactly as it is.
+#   - If your text contains a colon followed by a space (like "Capstone: ..."),
+#     wrap the whole thing in double quotes: "Capstone: my project".
+#   - Make words bold by wrapping them in double stars: **like this**.
+#   - Photos go in the "images" folder; refer to them by file name.
+#   - Lines starting with # are notes to you. The website ignores them.
+#
+# =====================================================================
+
+
+# ---------------------------------------------------------------------
+#  TOP OF PAGE
+# ---------------------------------------------------------------------
+hero:
+  name: Abby Koch
+  credentials:
+    - EIT (Engineer-in-Training)
+    - Post-graduate Diploma in Clinical Prosthetics & Orthotics, BCIT (With Distinction)
+  label: Professional Portfolio
+  tagline:
+    - I approach problems like an engineer, and solutions like a clinician.
+    - Bridging engineering and clinical practice to design systems that work in the real world.
+  photo: headshot.jpg
+  background: hero-background.png
+
+# The short line under the top section. Change it whenever your search changes.
+looking_for: Open to roles in medical device quality, R&D, design, and clinical engineering. Based in Victoria, BC.
+
+# Contact links, used by the buttons at the top and bottom of the page.
+links:
+  email: abby_koch1@outlook.com
+  linkedin: https://www.linkedin.com/in/abbykoch/
+  resume: Abby-Koch-Resume.pdf     # swap this PDF in the main folder to update it
+
+
+# ---------------------------------------------------------------------
+#  EDUCATION (left column) and EXPERIENCE (right column)
+#  Newest first. "when" is the little date on the left.
+# ---------------------------------------------------------------------
+education:
+  - when: Spring 2026
+    school: British Columbia Institute of Technology
+    credential: Post-graduate Diploma in Clinical Prosthetics & Orthotics (With Distinction)
+    description: Prosthetists specialize in devices for individuals with limb loss, while orthotists focus on bracing and support for musculoskeletal injuries or pathologies. Training in the design, fabrication, and evaluation of custom orthopedic devices, integrating biomechanics, materials science, and patient-specific solutions.
+
+  - when: "2022"
+    school: University of Manitoba
+    credential: B.Sc. in Biosystems Engineering (Dean's Honour List)
+    description: Biosystems Engineering integrates engineering principles with biological sciences to design systems and technologies that improve human health, agriculture, and the environment. Coursework in physiology, biomechanics, human factors and safety engineering.
+
+experience:
+  - when: Summer 2025
+    org: Custom Prosthetic Services, Ltd.
+    role: Clinical Assistant
+    description: Led the clinical evaluation of 3D scanning systems; the clinic purchased the recommended scanner and began preliminary workflow integration. Trained staff on scanner and CAD use. Cast, modified and laminated a carbon fibre transtibial socket under a certified prosthetist.
+
+  - when: 2024 – 2025
+    org: Victoria Hand Project
+    role: Mechanical Engineer (EIT)
+    description: Partnered with the CEO to grow clinical adoption across North America and ran 8 custom prosthetic projects at once. Built a traceability database and automated quality control checklists with Google Apps Script. Determined that Health Canada Class I licensing wasn't required for the organization's devices.
+
+  - when: 2022 – 2023
+    org: Magellan Aerospace, Ltd.
+    role: Process Engineering Specialist (EIT)
+    description: Applied aerospace quality standards (AS9100 QMS) to advanced machining processes including 5-axis laser cutting, abrasive waterjet cutting, and electrical discharge machining. Managed the calibration program, wrote SOPs and test procedures, and facilitated root cause analysis on NASA, F-35 and GE Aviation programs.
+
+  - when: "2022"
+    org: Magellan Aerospace, Ltd.
+    role: Continual Improvement Facilitator
+    description: Led 3 cross-departmental 5S events and organized a 50+ attendee facility tour for the Canadian Manufacturers & Exporters conference. Applied Lean principles to production on the F-35 and GE Aviation programs.
+
+  - when: "2021"
+    org: Magellan Aerospace, Ltd.
+    role: Engineering Co-op Student
+    description: Designed an end-of-arm effector for an ABB robotic system in SolidWorks.
+
+
+# ---------------------------------------------------------------------
+#  CLINICAL PRACTICUMS
+# ---------------------------------------------------------------------
+practicums:
+  - place: Queen Alexandra Centre for Children's Health (Island Health)
+    location: Victoria, BC
+    description: Assessed patients and coordinated care on an interdisciplinary team with physiotherapists, physicians and orthotists. Assisted a Schroth-certified physiotherapist with patient sessions and reviewed spinal x-rays to blueprint spinal orthoses.
+
+  - place: Winnipeg Prosthetics & Orthotics
+    location: Winnipeg, MB
+    description: Fabricated 2 transtibial sockets and a partial foot prosthesis. Did intake, fitting, gait analysis and patient training, including with families travelling in from northern Manitoba and Nunavut.
+
+  - place: BC Children's Hospital
+    location: Vancouver, BC
+    description: Shadowed spinal surgeons in clinic and provided input on technical details for spinal bracing.
+
+
+# ---------------------------------------------------------------------
+#  CREDENTIALS and SKILLS
+# ---------------------------------------------------------------------
+credentials:
+  - name: EIT
+    detail: Engineers Geoscientists Manitoba. EGBC transfer and P.Eng. in progress.
+  - name: AS9100 Training
+    detail: External training, 2023
+  - name: Aviation Human Factors
+    detail: Red River College, 14 hours
+  - name: "TCPS 2: CORE"
+    detail: Research ethics certification
+
+skills:
+  - group: Quality & Regulatory
+    items: [AS9100 QMS, Calibration programs, SOPs & data cards, Change control, Root cause analysis, Mock internal audits, Health Canada device classification, ISO 13485 familiarity]
+  - group: Clinical
+    items: [Prosthetic & orthotic fabrication, Casting & modification, Carbon fibre lamination, Fitting & alignment, Gait analysis, Patient training, Interdisciplinary teams]
+  - group: Design & Research
+    items: [Fusion 360, 3D scanning, 3D printing, F-Scan pressure mapping, Ethics applications, RStudio, Google Apps Script]
+
+
+# ---------------------------------------------------------------------
+#  CASE STUDIES (the big Problem / Approach / Learning panels)
+#  They show in this order. "featured: true" adds a "Featured" tag.
+#  "stats" is optional: a row of big numbers.
+#  "images" is optional: file names from the images folder, with a short
+#  description for screen readers (alt).
+# ---------------------------------------------------------------------
+case_studies:
+
+  - title: Designing for Comfort on Adaptive Exercise Equipment
+    place: BCIT Capstone with the Centre for Applied Research and Innovation · Co-presented at OPRC, Montreal, August 2026
+    featured: true
+    problem:
+      - The AAPLEwalk™ is an active-arm, passive-leg elliptical built at BCIT for people with spinal cord injury. In its pilot study, the tibial pads created **uncomfortable pressure points**, a real risk for users who can't feel below their injury.
+    approach:
+      - Followed the **FDA design control process** for medical devices, turning user needs (safe pressure distribution, comfort, adjustability, durability) into design inputs.
+      - Modelled a new tibial structure in **Fusion 360**, 3D printed it in PETG, and hand-fabricated a layered P&O foam padding offloaded at the tibial crest.
+      - Co-led an **ethics-approved trial** comparing pressure, perceived pain and skin redness across padding conditions, using **F-Scan pressure mapping** and the Wong-Baker FACES scale. Wrote the literature review and the ethics application.
+      - Surveyed the design team on how P&O expertise fit into an interdisciplinary engineering project.
+    learning:
+      - Off-the-shelf gel padding outperformed our custom foam build. Anatomy and device setup varied more than padding did, so the next design needs **measurable adjustments** in the tibial area.
+      - P&O principles work best when they're brought in early in the design process, not added at the end.
+    # "caption" is the small line under each photo (optional).
+    images:
+      - file: capstone-aaplewalk.png
+        alt: A user exercising on the AAPLEwalk adaptive elliptical with legs strapped into the leg supports.
+        caption: The AAPLEwalk™, developed at BCIT's Centre for Applied Research and Innovation
+      - file: capstone-prototype.png
+        alt: The 3D-printed tibial structure beside the hand-fabricated three-layer P&O foam padding.
+        caption: Our prototype, a 3D-printed tibial structure with hand-fabricated P&O padding
+      - file: capstone-fscan.png
+        alt: F-Scan pressure sensors on a participant's shin, beside a colour pressure map of the tibial region.
+        caption: F-Scan sensors on the shin and the pressure map they produce
+      - file: capstone-pressure-maps.png
+        alt: Three pressure maps of the tibial region comparing padding conditions A, B and C.
+        caption: Pressure across the tibial region under three padding conditions
+
+  - title: Growing Clinical Adoption Across North America
+    place: Victoria Hand Project, Victoria, BC
+    stats:
+      - number: 30+
+        label: prosthetic clinics reached
+      - number: "8"
+        label: became fitting partners
+      - number: "8"
+        label: patient projects at once
+      - number: 5+
+        label: clinicians trained
+    problem:
+      - Victoria Hand Project's 3D-printed prosthetic hands needed clinical partners in North America, and remote fittings didn't always go smoothly the first time.
+    approach:
+      - Partnered with the CEO on business development, building relationships with **30+ prosthetic clinics** and converting **8 into fitting partners**.
+      - Managed 8 custom prosthetic projects at once, from design to fitting, making a check socket for each patient before the final socket was printed.
+      - Presented and demoed devices to clinicians and trained them on fitting, adjusting and using them, both remotely and on-site.
+      - Traced a recurring fitting issue to short cabling from assembly, added buffer cabling to every shipment, and started a prep call before each fitting.
+    learning:
+      - A short call before each fitting made a big difference. Fittings ran smoother and the calls became more collaborative, which strengthened our partnerships.
+
+  - title: Automating Quality Control for 3D Printed Prosthetics
+    place: Victoria Hand Project, Victoria, BC
+    problem:
+      - Inconsistent application of quality control checklists during 3D-printed prosthesis fabrication led to errors and reduced reliability.
+    approach:
+      - Developed a prosthesis **tracking database** to capture patient information, assembly status, and shipping details.
+      - Automated workflows using AI and Google Apps Script to create quality control templates for each prosthetic system.
+    learning:
+      - Making the problem visible is the first step to problem-solving... If you can't see it, you can't solve it!
+    images:
+      - file: vhp-checklist.png
+        alt: Victoria Hand Project assembly checklist form with fields for builder information, start date, hand style, serial number, and a table of process tests.
+
+  - title: Integrating Aerospace Standards (AS9100 QMS) for 5-Axis Laser Cutting
+    place: Magellan Aerospace, Winnipeg, MB
+    problem:
+      - Aerospace components required validated cutting processes to meet strict quality and customer contract requirements.
+    approach:
+      - Completed the **metallurgical acceptance testing that cleared a $1.2M laser system purchase**, working to customer specifications for the GE Aviation program, and wrote the acceptance report.
+      - Validated the 5-axis laser cutting process, supporting a **NADCAP accreditation audit**.
+      - Applied AS9100 QMS and customer standards to the process, writing **SOPs, data cards and internal quality documents** and routing each change through electronic change control.
+      - Managed the AS9100 calibration program for mechanical test and laser equipment, maintaining **100% compliance**.
+      - Ran mock internal audits and trained operators; external audits passed with only minor findings.
+    learning:
+      - Integrating a new process into an existing manufacturing environment is complex. Don't hesitate to ask questions!
+    images:
+      - file: magellan-trulaser.png
+        alt: A TruLaser Cell 7040 laser machine with doors, green windows, and a control panel on the side.
+      - file: magellan-laser-cutting.png
+        alt: A TRUMPF laser cutting machine cutting shapes into a sheet of metal.
+
+  - title: Designing and Fabricating a Knee-Ankle-Foot Orthosis for Post-Polio Knee Hyperextension
+    place: British Columbia Institute of Technology, Vancouver, BC
+    problem:
+      - Patient with post-polio and 17° knee hyperextension (knee bending backwards) required a KAFO for stance-phase stability.
+    approach:
+      - Conducted a gait analysis and captured limb geometry via hand casting.
+      - Applied **load-relief modifications** to protect bony prominences.
+      - Designed and fabricated a polypropylene KAFO with steel uprights, **reducing knee hyperextension to 3° in midstance**.
+    learning:
+      - Orthotic design requires anticipating downstream biomechanical effects. Solving one gait deviation may introduce another!
+    images:
+      - file: kafo-cast.png
+        alt: A full leg cast, marked with black tape in horizontal lines and a vertical blue line.
+      - file: kafo-device.png
+        alt: A KAFO leg brace with a white plastic frame, black straps, metal hinges, and tan padding.
+
+  - title: Creating a Carbon Fibre Transtibial (Below-Knee) Prosthetic Socket
+    place: Custom Prosthetic Services, Victoria, BC
+    problem:
+      - Patient with recent limb atrophy required a new diagnostic transtibial socket to restore fit and functional alignment.
+    approach:
+      - Hand casted limb geometry and modified the plaster model to manage pressure distribution.
+      - Selected a 25R energy-storage/return foot, tube clamp, and pyramid adapter. Aligned the prosthesis in a jig (5° flexion, 5° adduction).
+      - Fabricated the socket using resin and **carbon fibre laminate**, reinforcing the patellar tendon and distal socket regions to withstand cyclic loading.
+    learning:
+      - Material selection and reinforcement at high-stress regions increase prosthesis durability under cyclic loading.
+    images:
+      - file: socket-cast.png
+        alt: A plaster cast of a lower leg held in a blue alignment clamp.
+      - file: socket-prosthesis.png
+        alt: A carbon fibre prosthetic leg with a foot attached to the socket.
+
+  - title: Collaborating with a Patient to Design an Articulated Ankle-Foot Orthosis for Drop Foot
+    place: Queen Alexandra Centre for Children's Health (Island Health), Victoria, BC
+    problem:
+      - Patient with a history of clubfoot presented with mild drop foot, excessive forefoot inversion, and calcaneal varum.
+    approach:
+      - Conducted range of motion assessments and clinical gait observation to assess ankle instability.
+      - Fabricated a polypropylene **articulated AFO with Tamarack joints** and a varus control strap at the ankle for frontal plane stability.
+      - Verified device performance by observing improved toe clearance and reduced inversion during swing.
+    learning:
+      - Small design modifications (like a varus control strap) can noticeably change gait mechanics.
+    images:
+      - file: afo.png
+        alt: An ankle-foot orthosis decorated with a car and checkered flag pattern, with black straps.
+
+
+# ---------------------------------------------------------------------
+#  CONFERENCES & COMMUNITY
+# ---------------------------------------------------------------------
+involvement:
+  - when: "2026"
+    title: OPRC, Montreal
+    detail: Platform presentation (co-presented), "Designing Across Disciplines - Applying P&O Principles to Adaptive Exercise Equipment"
+  - when: "2025"
+    title: AAOP Annual Meeting, Atlanta
+    detail: Represented Victoria Hand Project and connected with prospective clinical partners
+  - when: "2024"
+    title: Amputee Coalition National Conference, Atlanta
+    detail: Represented Victoria Hand Project to increase product awareness
+  - when: "2019"
+    title: CEMF Marie Carter Ambassador Award
+    detail: Presented at 2 schools on choosing engineering; helped select CEMF Prairies scholarship recipients
+  - when: Ongoing
+    title: Community
+    detail: Engineer in Residence at a Winnipeg high school; HFES BC Chapter member; OPRC 2026 volunteer
+
+
+# ---------------------------------------------------------------------
+#  BOTTOM OF PAGE
+# ---------------------------------------------------------------------
+contact:
+  heading: Reach out!
+  text: Whether it's about a role or a project, I'd love to hear from you.
